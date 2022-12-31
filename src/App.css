@@ -2,6 +2,33 @@
   text-align: center;
 }
 
+.Grid{
+  border: 3px black solid; 
+  height:450px;
+  width:450px;
+  display: flex;
+  flex-wrap: wrap;
+  margin:auto;
+  margin-top: 40px;
+}
+
+.Tile{
+  height:48px;
+  width:48px;
+  border: 1px solid lightgrey
+}
+
+.Tile-vert{
+  height:48px;
+  width:48px;
+  border-right: 1px solid black
+}
+.Tile-hor{
+  height:48px;
+  width:48px;
+  border-bottom: 1px solid black
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
